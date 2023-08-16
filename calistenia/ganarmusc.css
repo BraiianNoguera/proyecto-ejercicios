@@ -1,0 +1,161 @@
+/* INSTRUCCIONES */
+
+.exercise-instructions {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .exercise-instructions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .exercise-instructions table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .exercise-instructions th,
+  .exercise-instructions td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+  /* CONTADOR */
+
+.timer {
+    text-align: center;
+    margin: 80px 50px 50px 50px;
+    background-color: #e6e6e6;
+    padding: 30px;
+    border-radius: 100px;
+    border: solid black 3px;
+  }
+  
+  .time-display {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .timer h1{
+    text-transform: uppercase;
+    font-size: 40px;
+  }
+  
+  button {
+    background-color: #003f5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  #start:hover{
+    background-color: #ff6600;
+  }
+  #pause:hover{
+    background-color: #ff6600;
+  }
+  #stop:hover{
+    background-color: #ff6600;
+  }
+
+  /* Estilos para la navegación de rutinas */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    margin-bottom: 5px;
+  }
+  
+  nav a {
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #666666;
+  }
+
+   /* ESTILOS TEXTOS */
+
+   #title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff8533;
+    font-size: 24px;
+    margin: 20px 0 20px 0;
+  }
+
+  /* /* dieta */
+
+.diet-plan {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .diet-plan h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .diet-plan ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .diet-plan li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .sub-item {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  #more-recipes-button {
+    background-color: #ff8533;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  #more-recipes-button:hover {
+    background-color: #e66100;
+  }  
+
+  img{
+    border-radius: 50%;
+    width: 200px;
+  }
+
+  /* Estilos para el footer */
+
+  footer {
+    background-color: #003f5c;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    color: #fff;
+    margin: 0;
+  }
