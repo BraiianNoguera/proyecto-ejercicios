@@ -58,7 +58,7 @@
    /* Estilos plan ejer. */
   
   .exercise-plan {
-    background-image: url(imagenes/i.jpg);
+    background-image: url(imagenes/fi.jpg);
       padding: 20px;
       border: 1px solid #cccccc;
       border-radius: 10px;
@@ -104,6 +104,13 @@
     .inf{
       color: black;
       text-align: left;
+      text-shadow: 1px 1px 1px white;
+    }
+    
+    .inf1{
+      color: white;
+      text-align: left;
+      text-shadow: 1px 1px 1px black;
     }
     
     .exercise-list {
@@ -118,13 +125,6 @@
       color: #3f3f3f;
       font-family: 'Roboto', sans-serif;
     }
-    
-    /* .diet-guidelines {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-top: 20px;
-      font-family: 'Roboto', sans-serif;
-    } */
   
     /* Estilos para los contenedores de rutinas */
   

@@ -58,18 +58,18 @@
    /* Estilos plan ejer. */
   
   .exercise-plan {
-    background-image: url(imagenes/fondo.jpg);
+    background-image: url(imagenes/f.jpg);
       padding: 20px;
       border: 1px solid #cccccc;
       border-radius: 10px;
-      margin-top: 0;
+      margin-top: 20px;
       font-family: 'Roboto', sans-serif;
     }
     
     .exercise-plan h2 {
       font-size: 28px;
       margin-bottom: 15px;
-      color: white;
+      color: #fff;
       text-transform: uppercase;
       text-align: center;
     }
@@ -91,7 +91,6 @@
       margin-top: 30px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: white;
-      text-shadow: 1px 1px 1px black;
     }
     
     .exercise-day-inf h3 {
@@ -104,8 +103,7 @@
     }
     .inf{
       color: white;
-      text-align: left;
-      text-shadow: 1px 1px 1px black;
+      text-align: left; 
     }
     
     .exercise-list {
@@ -120,6 +118,13 @@
       color: #3f3f3f;
       font-family: 'Roboto', sans-serif;
     }
+    
+    /* .diet-guidelines {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif;
+    } */
   
     /* Estilos para los contenedores de rutinas */
   
