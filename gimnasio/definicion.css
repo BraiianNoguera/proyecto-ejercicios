@@ -118,21 +118,15 @@
       color: #3f3f3f;
       font-family: 'Roboto', sans-serif;
     }
-    
-    /* .diet-guidelines {
-      font-size: 18px;
-      line-height: 1.6;
-      margin-top: 20px;
-      font-family: 'Roboto', sans-serif;
-    } */
   
     /* Estilos para los contenedores de rutinas */
   
-    @media screen and (max-width: 480px) {
+    @media (max-width: 480px) {
       .grid-container {
-        display: flex;
-        /* flex-direction: column; */
+        grid-template-columns: auto;
       }
+
+      
     }
   
     .grid-container {
