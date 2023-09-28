@@ -78,6 +78,14 @@ body {
     text-align: center;
     color: white;
   }
+
+  @media (max-width:780px) {
+    #tracking-form{
+      display: flex;
+      flex-direction:column;
+      margin: 10px;
+    }
+  }
   
   h2{
     font-size: 28px;
@@ -96,7 +104,7 @@ body {
   }
   
   form {
-    display: flex;
+    display: flexbox;
     align-items: center;
     margin: 0 auto;
     text-align: center;
@@ -137,6 +145,56 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
+
+  /* REGISTRAR PESO */
+
+.weight-tracker {
+  text-align: center;
+  padding: 20px;
+}
+
+.weight-form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#weight-form {
+  display: flex;
+  align-items: center;
+}
+
+#weight-input {
+  width: 100px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e66100;
+}
+
+.weight-history-container {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+#weight-list {
+  list-style: none;
+  padding: 0;
+}
+
+#weight-list li {
+  margin-bottom: 5px;
+}
   
   /* CONTADOR */
   

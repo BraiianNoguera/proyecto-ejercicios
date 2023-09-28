@@ -124,9 +124,7 @@
     @media (max-width: 480px) {
       .grid-container {
         grid-template-columns: auto;
-      }
-
-      
+      } 
     }
   
     .grid-container {

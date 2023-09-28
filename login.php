@@ -44,10 +44,10 @@
     <h1>Registrarse</h1>
 
     <form method="POST">
-      <input type="text" name="nombre" placeholder="Nombre completo" required>
-      <input type="email" name="correo" placeholder="Correo electrónico" required>
-      <input type="password" name="contrasena" placeholder="Contraseña" required>
-      <button type="submit" name="register">Registrarse</button>
+      <input type="text" name="nombre" placeholder="Nombre completo">
+      <input type="email" name="correo" placeholder="Correo electrónico">
+      <input type="password" name="contrasena" placeholder="Contraseña">
+      <button type="submit" name="register"><a href="index.html">Registrarse</a></button>
     </form>
     <?php
     include("registro.php");
@@ -58,7 +58,7 @@
     <form action="login.php" method="POST">
       <input type="email" name="correo" placeholder="Correo electrónico" required>
       <input type="password" name="contrasena" placeholder="Contraseña" required>
-      <button type="submit" name="login">Iniciar sesión</button>
+      <button type="submit" name="login"><a href="index.html">Iniciar Sesión</a></button>
     </form>
   </div>
 

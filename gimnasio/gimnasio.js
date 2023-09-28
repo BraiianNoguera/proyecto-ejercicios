@@ -111,3 +111,20 @@ function redirectToExercise() {
     alert('Selecciona un objetivo válido.');
   }
 }
+
+// registrar peso
+function addWeight() {
+  const weightInput = document.getElementById("weight-input");
+  const weight = parseFloat(weightInput.value);
+
+  if (!isNaN(weight)) {
+    const weightList = document.getElementById("weight-list");
+    const listItem = document.createElement("li");
+    const currentDate = new Date().toLocaleDateString();
+
+    listItem.textContent = `${currentDate}: ${weight} kg`;
+    weightList.appendChild(listItem);
+
+    weightInput.value = "";
+  }
+}
